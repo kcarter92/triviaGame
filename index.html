@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Triva Game</title>
+<!--_______________________RESET____________________________-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<!--_______________________BOOTSTRAP________________________-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Saira+Condensed:700" rel="stylesheet">
+<!--_______________________CSS______________________________-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col-lg-6">
+					<header>
+						<h1>SCRUBS QUIZ</h1>
+					</header>
+					<button id="startBtn">Start</button>
+				</div>
+				<div class="col-lg-6">
+					<p>Time Remaining:</p>
+					<div id="timeRemaining">30 Seconds</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">	
+		<div id="questions">
+			<form>
+				<h2>Test Your Scrub Knowledge!</h2>
+				<div = class="questionOne">
+					<h3>1. What was Turk and J.D.'s fake dead dog's name?</h3>
+				    	<label>
+				        	<input type="radio" name="q1" value="a">
+				        	A) Frank
+				    	</label>      
+				      	<label>
+				        	<input type="radio" name="q1" value="b">
+				        	B) Evan
+				        </label>
+				      	<label>
+				        	<input type="radio" name="q1" value="c" data-correct>
+				        	C) Rowdy
+				    	</label>
+				      	<label>
+				        	<input type="radio" name="q1" value="d">
+				        	D) Spot
+				        </label>
+			        </div>
+			    <div = class="questionTwo">
+				    <h3>2. What does J.D. stand for?</h3>
+				    	<label>
+				        	<input type="radio" name="q2" value="a" data-correct>
+				        	A) John Dorian
+				    	</label>
+				      	<label>
+				        	<input type="radio" name="q2" value="b">
+				        	B) James Dorian
+				        </label>
+				      	<label>
+				        	<input type="radio" name="q2" value="c">
+				        	C) John David
+				    	</label>
+				      	<label>
+				        	<input type="radio" name="q2" value="d">
+				        	D) James David
+				        </label>
+				</div>
+				<div class="questionThree">
+				    <h3>3. What is Dr.Kelso's wife's name?</h3>
+				    	<label>
+				        	<input type="radio" name="q3" value="a">
+				        	A) Emily
+				    	</label>    
+				      	<label>
+				        	<input type="radio" name="q3" value="b" data-correct>
+				        	B) Enid
+				        </label>
+				      	<label>
+				        	<input type="radio" name="q3" value="c">
+				        	C) Mary
+				    	</label>
+				      	<label>
+				        	<input type="radio" name="q3" value="d">
+				        	D) June
+				        </label>
+				</div>
+				<div = class="questionFour">
+				    <h3>4. What was the name of the hospital the show was set in?</h3>
+				    	<label>
+				        	<input type="radio" name="q4" value="a">
+				        	A) Sacred Health
+				    	</label>				      
+				      	<label>
+				        	<input type="radio" name="q4" value="b" data-correct>
+				        	B) Sacred Heart
+				        </label>
+				      	<label>
+				        	<input type="radio" name="q4" value="c">
+				        	C) Sacred Hospital
+				    	</label>
+				      	<label>
+				        	<input type="radio" name="q4" value="d">
+				        	D) Sacred Fart
+				        </label>
+				</div>
+				<div = class="questionFive">
+				    <h3>5. What nationality is Carla?</h3>
+				    	<label>
+				        	<input type="radio" name="q5" value="a">
+				        	A) Mexican
+				    	</label>
+				      	<label>
+				        	<input type="radio" name="q5" value="b">
+				        	B) Puerto Rican
+				        </label>
+				      	<label>
+				        	<input type="radio" name="q5" value="c" data-correct>
+				        	C) Dominican 
+				    	</label>
+				      	<label>
+				        	<input type="radio" name="q5" value="d">
+				        	D) Cuban
+				        </label>
+				</div>
+			    <br>
+		        <button id="doneBtn">Done</button>
+			</form>
+		</div>
+	</div>
+	<div class="container">
+		<div id="results">Results</div>
+	</div>
+<!--_______________________jQuery___________________________-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--_______________________javaScript_______________________-->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

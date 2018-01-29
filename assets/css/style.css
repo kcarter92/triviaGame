@@ -1,0 +1,41 @@
+body 
+{
+	background: url("../images/scrubscast.jpg");
+	background-repeat: no-repeat;;
+	background-size: cover;
+	color: #036564;
+	text-shadow: 0.5px 0.5px #E8DDCB; ;
+}
+
+.jumbotron 
+{
+	opacity: 0.5;
+}
+
+.jumbotron:hover
+{
+	opacity: 0.8;
+}
+
+h1
+{
+	font-size: 60px;
+}
+
+#questions
+{
+	border-radius: .3rem;	
+	background: #e9ecef;
+	opacity: 0.5;
+	padding: 20px;
+}
+
+#questions:hover
+{
+	opacity: 0.8;
+}
+
+p, #timeRemaining
+{
+	font-size: 30px;
+}
